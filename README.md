@@ -4,7 +4,6 @@ from urllib.request import urlopen
 from datetime import datetime
 import pandas as pd
 from io import StringIO
-
 def download_finam_data(ticker, period, start_date, end_date):
     # Запись переменных
     FINAM_URL = "http://export.finam.ru/"
